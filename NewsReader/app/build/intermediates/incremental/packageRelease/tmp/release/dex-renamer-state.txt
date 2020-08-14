@@ -1,0 +1,4 @@
+#Sat Feb 22 17:40:24 AZT 2020
+base.0=/home/murad/Downloads/RealAndroidStudioProjects/NewsReader/NewsReader/app/build/intermediates/transforms/r8/release/0/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

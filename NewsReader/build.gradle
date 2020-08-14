@@ -1,0 +1,68 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.3'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+}
+
+ext{
+    // Compile SDK Version
+    compileSdkVersion = 29
+    // Build Tools Version
+    buildToolsVersion = "29.0.2"
+    // Minimum SDK Version
+    minSdkVersion = 14
+    // Target SDK Version
+    targetSdkVersion = 29
+    // Version Code
+    versionCode = 1
+    // Version Name
+    versionName = "1.0"
+    // Test
+    junit = '4.12'
+    junit2 = '1.1.1'
+    espresso = '3.2.0'
+    // RecyclerView
+    recyclerview = '1.1.0'
+    // CardView
+    cardview = '1.0.0'
+    // ButterKnife
+    butterknife = '10.0.0'
+    // Glide
+    glide = '4.9.0'
+    // Gson
+    gson = '2.8.5'
+    // Retrofit
+    retrofit = '2.3.0'
+    // SwipeRefreshLayout
+    swiperefreshlayout = '1.0.0'
+    // Material
+    material = '1.1.0'
+    // Google Play Services Ads
+    googlePlayServicesAds = '18.3.0'
+    // Mockito
+    mockito = '2.7.22'
+    // PowerMock
+    powermock_1 = '1.7.4'
+    powermock_2 = '2.0.5'
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

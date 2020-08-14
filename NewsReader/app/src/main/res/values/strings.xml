@@ -1,0 +1,21 @@
+<resources>
+    <!--Primary-->
+    <string name="app_name" translatable="false">News Reader</string>
+    <string name="api_key" translatable="false">5b62cc7eb9944060b6912d9add92cbde</string>
+    <string name="main_banner" translatable="false">ca-app-pub-3531666375863646/8179331942</string>
+    <string name="news_api_org" translatable="false">https://newsapi.org</string>
+    <!--Secondary-->
+    <string name="error">Error: </string>
+    <string name="went_wrong">Something went wrong, please try again later</string>
+    <string name="search">Search</string>
+    <string name="business">Business</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="health">Health</string>
+    <string name="science">Science</string>
+    <string name="sports">Sports</string>
+    <string name="technology">Technology</string>
+    <string name="powered_by">Powered by NewsApi.org</string>
+    <string name="visit">Visit</string>
+    <string name="press_back_again">Press the back key again to exit</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+</resources>
